@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className='flex flex-1 sm:flex-row flex-col'>
         <div className='relative sm:w-1/2 w-full  flex items-center sm:justify-end justify-center shadow sm:shadow-none pb-5 sm:pb-0'>
-            <Image className='object-cover ' src='/Hero-furniture.png' alt='hero' width={500} height={500} />
+            <Image className='object-cover ' src='/Hero-furniture.png' alt='hero' width={500} height={500} priority />
         </div>
         <div className='sm:w-1/2 w-full  flex justify-center mt-10 sm:mt-0'>
             <div className='flex flex-col justify-center h-full w-[75%] gap-3'>

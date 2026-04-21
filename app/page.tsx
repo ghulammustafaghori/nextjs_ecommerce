@@ -1,5 +1,6 @@
 import Header from "./components/Header"
 import Hero from "./components/Hero"
+import Home_Section2 from "./components/Home_Section2"
 function Home(){
   return(
     <div>
@@ -8,6 +9,7 @@ function Home(){
       <Header/>
       <Hero />
       </div>
+      <Home_Section2 />
     </div>
   )
 }
