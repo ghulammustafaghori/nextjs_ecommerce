@@ -1,10 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
-const Home_Section3 = () => {
+
+ type Home_Section3 = {
+    title: string
+  }
+const Home_Section3 = ({title}:Home_Section3) => {
+
     return (
         <div className='mt-25'>
             <div className='w-full'>
-                <h1 className='text-center text-3xl font-bold'>Best Selling Furnitures</h1>
+                <h1 className='text-center text-3xl font-bold'>{title}</h1>
                 <p className='text-center text-1xl mt-5'>Shop versatile furniture perfect for multi-use spaces</p>
             </div>
 

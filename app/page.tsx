@@ -4,6 +4,8 @@ import Home_Section2 from "./components/Home_Section2"
 import Home_Section3 from "./components/Home_Section3"
 import Home_Section4 from "./components/Home_Section4"
 function Home(){
+
+  
   return(
     <div>
     <div className='min-h-screen flex flex-col'>
@@ -12,8 +14,9 @@ function Home(){
       <Hero />
       </div>
       <Home_Section2 />
-      <Home_Section3 />
+      <Home_Section3 title='Best Selling Furniture' />
       <Home_Section4 />
+      <Home_Section3 title='Featured Furniture' />
     </div>
   )
 }
